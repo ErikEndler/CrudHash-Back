@@ -21,6 +21,7 @@ public class UserControl {
 
 	public void deleteById(int id) {
 		verifyExist(id);
+		userHashControl.delete(id);
 		userRepository.deleteById(id);
 	}
 

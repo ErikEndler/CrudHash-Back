@@ -29,9 +29,19 @@ public class UserHashControl {
 		userHashRepository.save(new UserHash(hash, user));
 		return user;
 	}
+	public UserHash listIdUser(int id) {
+		return userHashRepository.findByUserId(id);
+		
+	}
 
 	public void list() {
 
+	}
+
+	public void delete(int id) {
+		UserHash userhash =listIdUser(id);
+		userHashRepository.deleteById(userhash.getId());
+		
 	}
 
 }

@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.CrudHashBack.Control.UserControl;
+import com.CrudHashBack.Control.UserHashControl;
 import com.CrudHashBack.DTO.UserDTO;
 import com.CrudHashBack.Models.User;
 
@@ -33,6 +34,8 @@ public class UserEndPoint {
 
 	@Autowired
 	UserControl userControl;
+	@Autowired
+	UserHashControl userHashControl;
 
 	@ApiOperation(value = "Salva um User")
 	@PostMapping("")
@@ -69,7 +72,8 @@ public class UserEndPoint {
 	}
 
 	private UserDTO userResponse(User user) {
-		return new UserDTO(user.getId(), user.getName(), user.getPassword());
+		
+		return new UserDTO(user.getId(), user.getName(), user.getPassword(), userHashControl.listIdUser(user.getId()).getHash());
 	}
 
 	// Recebe uma lista de usuarios e transforma a lista para o formato de resposta
