@@ -7,11 +7,13 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class UserDTO {
+public class SaleDTO {
 
+	
 	private int id;
-	private String name;
-	private String password;
+	private String description;
+	private Double value;
 	private String hash;
+	private boolean integridade;
 
 }

@@ -1,0 +1,22 @@
+com.CrudHashBack.Models.User@4d216dd
+User(id=0, name=string, password=Gogh, hash=null)
+User(id=18, name=string, password=Gogh, hash=null)
+User(id=19, name=dfdgvcvb, password=dfgdsgc, hash=null)
+User(id=20, name=dfdgvcvb, password=dfgdsgc, hash=null)
+User(id=24, name=676767, password=6767676, hash=com.CrudHashBack.Models.UserHash@5a51647c)
+User [id=25, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f8d5b49e2d5d71b5a3b]
+User [id=26, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f8d5b49e2d5d71b5a3b]Tue Sep 15 11:18:53 BRT 2020
+15/09/2020 11:24:04 - User [id=27, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f8d5b49e2d5d71b5a3b]
+2020-09-15 11:26:16 - User [id=28, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f8d5b49e2d5d71b5a3b]
+2020-09-15 11:27:04 - save - User [id=29, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f8d5b49e2d5d71b5a3b]
+2020-09-15 11:32:30 - delete - User [id=29, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f8d5b49e2d5d71b5a3b]
+2020-09-15 12:17:28 - edit - Old -User [id=9, name=teste teste, password=testeteste, hash=afe75e9f3b54ec6fa9be69a21f2ed7c24fd59e92]- New -User [id=9, name=teste teste, password=testeteste, hash=afe75e9f3b54ec6fa9be69a21f2ed7c24fd59e92]
+2020-09-15 12:18:08 - edit - Old -User [id=9, name=novo teste, password=novo teste, hash=eabc928d7546b8646bad2fcc6fb74cd3c8a3c1a1]- New -User [id=9, name=novo teste, password=novo teste, hash=eabc928d7546b8646bad2fcc6fb74cd3c8a3c1a1]
+2020-09-15 12:20:36 - edit - Old -User [id=9, name=111111, password=111111, hash=7ec8aa461c2c28be905e1dfb0be256a971aa6108]- New -User [id=9, name=111111, password=111111, hash=7ec8aa461c2c28be905e1dfb0be256a971aa6108]
+2020-09-15 12:22:17 - edit - Old -User [id=9, name=22222, password=22222, hash=b1017ab1177d72528be39841a24e2f9f459b2b36]- New -User [id=9, name=22222, password=22222, hash=b1017ab1177d72528be39841a24e2f9f459b2b36]
+2020-09-15 12:26:00 - edit - Old -User [id=9, name=333, password=333, hash=77bce9fb18f977ea576bbcd143b2b521073f0cd6]- New -User [id=9, name=333, password=333, hash=77bce9fb18f977ea576bbcd143b2b521073f0cd6]
+2020-09-15 12:30:09 - edit - Old -User [id=9, name=333, password=333, hash=77bce9fb18f977ea576bbcd143b2b521073f0cd6]- New -User [id=9, name=444, password=444, hash=42cfe854913594fe572cb9712a188e829830291f]
+2020-09-15 12:52:30 - save - User [id=1, description=venda 1, value=55.5, hash=0b875ec01b0a334bf9db508f86aa68c9f77d603b]
+2020-09-15 12:52:51 - save - User [id=2, description=venda 2, value=1005.0, hash=3648254b2f6440d31e1a4a5d21407206ee903edb]
+2020-09-15 12:53:05 - save - User [id=3, description=venda 3, value=78.47, hash=dbb5a3f202ec868f872f64b67f22e2fef2c641f6]
+2020-09-15 12:53:39 - edit - Old -User [id=1, description=venda 1, value=55.5, hash=0b875ec01b0a334bf9db508f86aa68c9f77d603b]- New -User [id=1, description=vebnda x, value=9999.0, hash=ca4aeb94fe3d560a3c3be8271120bb9c42e025bf]

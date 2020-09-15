@@ -16,27 +16,34 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @Table(name="users")
-public class User {
+
+public class Sale {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private String name;
-	private String password;
-	@OneToOne(mappedBy = "user")
-	private UserHash hash;
+	private String description;
+	private Double value;
+	@OneToOne(mappedBy = "sale")
+	private SaleHash hash;
 
-	public User(int id, String name, String password) {
+	public Sale(int id, String description, Double value) {
 		super();
 		this.id = id;
-		this.name = name;
-		this.password = password;
+		this.description = description;
+		this.value = value;
 	}
 
-	public User(String name, String password) {
+	public Sale(String description, Double value) {
 		super();
-		this.name = name;
-		this.password = password;
+		this.description = description;
+		this.value = value;
 	}
+
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", description=" + description + ", value=" + value + ", hash=" + hash.getHash() + "]";
+	}
+	
 
 }

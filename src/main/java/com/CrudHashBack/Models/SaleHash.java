@@ -14,18 +14,19 @@ import lombok.Setter;
 @Setter
 @Entity
 @NoArgsConstructor
-public class UserHash {
+
+public class SaleHash {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String hash;
 	@OneToOne
-	private User user;
+	private Sale sale;
 	
-	public UserHash(String hash, User user) {
+	public SaleHash(String hash, Sale sale) {
 		super();
 		this.hash = hash;
-		this.user = user;
+		this.sale = sale;
 	}
 	
 	
