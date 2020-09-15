@@ -17,6 +17,8 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<java.runtime.version>11.0.8</java.runtime.version>
+
 	</properties>
 
 	<dependencies>
@@ -58,7 +60,7 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
