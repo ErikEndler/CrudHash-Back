@@ -1,7 +1,6 @@
 package com.CrudHashBack.Control;
 
 import java.security.NoSuchAlgorithmException;
-import java.util.Date;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.CrudHashBack.DTO.SaleDTO;
 import com.CrudHashBack.Models.Sale;
-import com.CrudHashBack.Models.SaleHash;
 import com.CrudHashBack.Repository.SaleRepository;
 import com.CrudHashBack.Util.ResourceNotFoundException;
 import com.CrudHashBack.Util.WriteLog;

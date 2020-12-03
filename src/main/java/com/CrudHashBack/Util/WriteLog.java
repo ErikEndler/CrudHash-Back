@@ -3,6 +3,8 @@ package com.CrudHashBack.Util;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -21,6 +23,17 @@ public class WriteLog {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		Path path;
+		try {
+			path = Files.writeString(Files.createTempFile("test", ".txt"), "This was posted");
+			System.out.println(path);
+			String s = Files.readString(path);
+			System.out.println(s); //This was posted
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
 	}
 	

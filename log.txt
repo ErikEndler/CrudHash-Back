@@ -27,3 +27,4 @@ User [id=26, name=erik ganhou açai, password=açai, hash=1c315e5e78770d72644b2f
 2020-09-15 17:18:21 - save - User [id=4, description=string, value=0.0, hash=db0d3f5c8de1c1f18f677a2f8a8a1c78f8e749b6]
 2020-09-15 17:19:06 - save - User [id=5, description=string, value=0.0, hash=db0d3f5c8de1c1f18f677a2f8a8a1c78f8e749b6]
 2020-09-15 17:22:31 - save - User [id=6, description=string, value=0.0, hash=db0d3f5c8de1c1f18f677a2f8a8a1c78f8e749b6]
+2020-09-18 08:14:45 - save - User [id=4, description=string, value=0.0, hash=db0d3f5c8de1c1f18f677a2f8a8a1c78f8e749b6]
