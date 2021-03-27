@@ -1,6 +1,8 @@
 # CrudHash-Back
 Using spring : 2.3.3.RELEASE // java: 11 // swagger : 3.0.0
 
+links de demosntração podem não estar disponiveis
+
 Disponivel em https://crudhash.herokuapp.com/swagger-ui/
 
 Available in https://crudhash.herokuapp.com/swagger-ui/
